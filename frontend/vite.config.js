@@ -14,7 +14,7 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      '/api': 'http://localhost:5000',
+      '/api': 'https://food-ordering-platform-qa3z.onrender.com',
     },
   }
 })
